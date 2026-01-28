@@ -1,0 +1,35 @@
+{
+  "name": "medical-booking-system",
+  "version": "1.0.0",
+  "description": "Event-driven medical clinic booking system with SAGA pattern",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli/index.js",
+    "dev": "ts-node src/cli/index.ts",
+    "test": "jest",
+    "test:scenarios": "ts-node src/test/scenarios.ts"
+  },
+  "keywords": [
+    "serverless",
+    "event-driven",
+    "saga",
+    "medical-booking"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/uuid": "^9.0.6",
+    "typescript": "^5.3.2",
+    "ts-node": "^10.9.2",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.8"
+  }
+}
