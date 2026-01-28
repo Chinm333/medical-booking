@@ -144,9 +144,8 @@ medical-booking/
    - Azure Event Grid
 
 3. **Holiday API**: 
-   - Primary: Nager.at API (free, no auth required)
+   - Primary: calendarific API (free, no auth required)
    - Fallback: Hardcoded major Indian holidays
-   - Timeout: 5 seconds
 
 4. **Real-time Updates**: 
    - CLI polls booking status every 500ms
